@@ -1,81 +1,61 @@
+# Awesome Document Management System
 
-# Document Management System
+## Project Overview
 
-## Overview
+🚀 Welcome to our Document Management System (DMS) project, where excellence meets efficiency! 🚀
 
-This project aims to create a robust Document Management System (DMS) with a focus on efficient document organization, version control, approval workflows, metadata management, user access, and security.
+### 
 
-## Features
+**1. JSON Magic for Views**
+-For Standard View (All Documents)
+-For Calendar View 
+-For Approved By View
+-For Gallery View
 
-### Document Library Organization
+**2. Gallery Bliss with Tile View**
 
-- **Logical Folders and Subfolders:**
-  - Organize documents based on content type, department, and other relevant criteria.
+Indulge in a visually stunning Gallery Tile View that turns your document library into a masterpiece. A modern twist for a classic necessity.
 
-- **Views:**
-  - **Standard View:**
-    - Displays all documents in a list format with customizable columns (title, author, date created, modified date).
-  - **Group by View:**
-    - Groups documents based on specific columns, facilitating quick access to documents related to a particular category.
-  - **Calendar View:**
-    - Displays documents as calendar events, suitable for documents with associated deadlines or dates.
+**3. Standard View, Leveled Up**
 
-- **Filters:**
-  - **Basic Filters:**
-    - Filter documents by date created, modified date, author, or any displayed column.
-  - **Metadata Filters:**
-    - Utilize custom metadata columns for filtering based on keywords, tags, categories, or other relevant attributes.
+Behold the Standard View, not as you know it!  meticulous CSS styling adds flair and finesse to your document listings.
 
-### Version Control and Approval Workflows
+## Workflows
 
-- **Version Control:**
-  - Track changes made to documents and revert to previous versions if needed.
+**1. Move to "Rejected Documents" - Like Magic!**
 
-- **Approval Workflows:**
-  - Implement workflows to ensure proper review and authorization before finalizing documents.
+my first Recurrence Workflow gracefully sweeps rejected documents away to a secret garden called "Rejected Documents." Organized and stress-free.
 
-### Metadata Management
+**2. Declutter with Document Deletion**
 
-- **Custom Metadata Columns:**
-  - Define metadata columns capturing information relevant to documents (e.g., Department, keywords, approval status).
+Witness the second Recurrence Workflow working silently in the background, deleting aged, rejected documents after 7 days. A tidy space is a happy space.
 
-- **Document Status and Approval Workflow Integration:**
-  - Set document status based on approval workflow outcomes.
+**3. Approval Workflow **
 
-### User Access and Security
+Raise the curtain for  integrated Approval Workflow, a choreography of systematic document reviews and authorizations.
 
-- **Permissions:**
-  - Set appropriate permissions for user groups, controlling access to documents and functionalities.
-    - Read access, Write access, Delete access, Upload access, Manage permissions.
-  - Divide users into groups based on roles and responsibilities.
+**4. Meta Data Mastery** 
 
-### Auditing and Logging
+Take control with custom metadata columns capturing document intricacies:
 
-- Implement auditing and logging mechanisms to track user actions within the SharePoint environment.
+##  Security - Low-Level Permissions
 
-## Resources
- -**[Configuring The List Using JSON]**
-      **(https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/list-form-configuration)**
+Forge a fortress around your documents! I've customized low-level permissions, cutting ties with site inheritance for a tailored, secure experience.
 
- -**[Meta Data & Adding Meta Data to share point Columns]**
-    **(https://blog.enterprisedna.co/adding-metadata-in-sharepoint-using-columns/#:~:text=Metadata%20in%20SharePoint%20provides%20information,document%20library%20to%20categorize%20files)**
+## Project Images 
+**![Image Alt text](Images/photo_10_2023-12-17_12-41-37.jpg)**
+**![Image Alt text](Images/photo_11_2023-12-17_12-41-37.jpg)**
+**![Image Alt text](Images/photo_12_2023-12-17_12-41-37.jpg)**
+**![Image Alt text](Images/photo_13_2023-12-17_12-41-37.jpg)**
+**![Image Alt text](Images/photo_1_2023-12-17_12-41-37.jpg)**
+**![Image Alt text](Images/photo_2_2023-12-17_12-41-37.jpg)**
+**![Image Alt text](Images/photo_3_2023-12-17_12-41-37.jpg)**
+**![Image Alt text](Images/photo_6_2023-12-17_12-41-37.jpg)**
+**![Image Alt text](Images/photo_7_2023-12-17_12-41-37.jpg)**
+**![Image Alt text](Images/photo_8_2023-12-17_12-41-37.jpg)**
+**![Image Alt text](Images/photo_9_2023-12-17_12-41-37.jpg)**
 
- -**[Calendar View 1]**
-**(https://support.microsoft.com/en-au/office/create-a-calendar-view-from-a-list-d7dcc7f6-8838-4f46-a60b-04048ebc3f00#:~:text=Select%20Create%20new%20view.,column%20or%20columns%20should%20apply.)**
+## Connect with Me:
 
-- **[Calendar View 2]**
-**(https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/list-form-configuration](https://lists.handsontek.net/format-microsoft-lists-calendar-view/#google_vignette)**
+- LinkedIn: [Munir Ali ](https://www.linkedin.com/in/munir-ali-7b9607234/)
 
-- **[Customize permissions for a SharePoint list or library]** (https://support.microsoft.com/en-us/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#:~:text=Assign%20unique%20permissions%20in%20SharePoint&text=grant%20unique%20permissions%3A-,Go%20to%20the%20list%2C%20library%2C%20or%20survey%20and%20open%20it,won't%20see%20Grant%20Permissions.)
-## Steps To Follow
-
-1. **Create Your Own Branch:**
-   - Create a new branch in the repository to work on this project.
-
-2. **Generate a Read Me:**
-   - Update the Read Me file with details about the project and your personal information.
-
-3. **After Completion of the Project:**
-   - Add a DEMO video link in your Read Me showcasing the Document Management System in action.
-
-Feel free to customize and expand on the features and resources based on your project's specific requirements. Happy coding!
