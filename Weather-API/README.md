@@ -13,6 +13,13 @@ A Power Apps-based Weather API project with a custom connector that provides sea
 
 ### User Interface
 **![Image Alt text](Images/ui1.jpg)**
+**![Image Alt text](Images/ui2.jpg)**
 
 ### Custom Connector Setup
-*Followed by images of the custom connector configuration and API setup.*
+**![Image Alt text](Images/photo_1_2024-10-07_19-15-02.jpg)**
+**![Image Alt text](Images/wap1.jpg)**
+**![Image Alt text](Images/wap2.jpg)**
+**![Image Alt text](Images/wap2.png)**
+
+
+
