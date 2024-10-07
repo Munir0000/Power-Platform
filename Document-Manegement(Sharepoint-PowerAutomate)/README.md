@@ -6,18 +6,19 @@
 
 ##
 
-**. Features:**
--**Custom Views**: JSON-based views for Standard, Calendar, Approved By, and Gallery.
--**Gallery Tile View:** Visually appealing document display.
--**Enhanced Standard View:** Custom CSS for an upgraded look.
+## Features:
+1. **Custom Views**: JSON-based views for Standard, Calendar, Approved By, and Gallery.
+2. **Gallery Tile View**: Visually appealing document display.
+3. **Enhanced Standard View**: Custom CSS for a refined look.
 
-**Workflows:**
-**Rejected Documents**: Automatically move rejected docs to a separate folder.
-**Auto-Deletion**: Removes old rejected docs after 7 days.
-**Approval Workflow**: Streamlined approval process.
+## Workflows:
+1. **Rejected Documents**: Automatically move rejected docs to a separate folder.
+2. **Auto-Deletion**: Removes old rejected documents after 7 days.
+3. **Approval Workflow**: Streamlined approval process.
 
-**Security:**
-  Custom low-level permissions for secure document handling.
+## Security:
+1. **Custom Permissions**: Secure document handling with custom low-level permissions.
+
   
 ## Project Images 
 **![Image Alt text](Images/photo_10_2023-12-17_12-41-37.jpg)**
