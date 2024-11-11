@@ -14,8 +14,8 @@ Standardizes the approval process for discount requests by providing preset opti
 - **Functionality**: Approvers select from these preset options, creating a uniform decision-making process for discount approvals.
 
 #### **Image**:
-![Custom Approval Requests](Images/Custom1.png)
-![Custom Approval Requests](Images/Custom2.png)
+![Custom Approval Requests](Images/Custom1.jpg)
+![Custom Approval Requests](Images/Custom2.jpg)
 
 ---
 
@@ -31,8 +31,8 @@ Multi-step approval process that retrieves the requestor's manager from a ShareP
   - Ideal for scenarios like invoice or discount requests that require multi-tiered verification.
 
 #### **Image**:
-![Sequential Approvals](Images/Sequential1.png)
-![Sequential Approvals](Images/Sequential2.png)
+![Sequential Approvals](Images/Sequential1.jpg)
+![Sequential Approvals](Images/Sequential2.jpg)
 
 ---
 
@@ -46,8 +46,8 @@ Initiates simultaneous approval requests across multiple departments, allowing f
   - The item status is updated based on the aggregated responses from all departments, enabling quick cross-functional decisions.
 
 #### **Image**:
-![Parallel Approval Requests](Images/Parallel2.png)
-![Parallel Approval Requests](Images/Parallel3.png)
+![Parallel Approval Requests](Images/Parallel2.jpg)
+![Parallel Approval Requests](Images/Parallel3.jpg)
 
 ---
 
@@ -60,9 +60,9 @@ Posts approval requests directly within **Microsoft Teams** using adaptive cards
 - **Use Case**: 
   - Ideal for quick responses and enhanced accessibility, especially for users working primarily in Teams.
 
-#### **Image**:
-![Parallel Approval Requests](Images/Adaptive1.png)
-![Parallel Approval Requests](Images/Adaptive2.png)
+#### **Image**: 
+![Parallel Approval Requests](Images/Adaptive1.jpg)
+![Parallel Approval Requests](Images/Adaptive2.jpg)
 ---
 ## Connect with Me:
 
