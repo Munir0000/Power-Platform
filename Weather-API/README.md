@@ -21,5 +21,7 @@ A Power Apps-based Weather API project with a custom connector that provides sea
 **![Image Alt text](Images/wap2.jpg)**
 **![Image Alt text](Images/wap2.png)**
 
+## Connect with Me:
 
+- LinkedIn: [Munir Ali ](https://www.linkedin.com/in/munir-ali-7b9607234/)
 
