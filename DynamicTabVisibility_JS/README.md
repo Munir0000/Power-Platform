@@ -1,4 +1,4 @@
-# Dynamically Hide "New Tab" Based on HR Priority in Power Apps
+# Dynamically Hide "New Tab" Based on HR Priority in Model Drive APP
 
 This project demonstrates the use of **JavaScript with execution context** in a model-driven Power Apps form to dynamically
 hide or show a tab based on the value of the **HR Priority** field. It replaces the **deprecated `Xrm` methods** with modern practices
