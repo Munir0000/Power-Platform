@@ -9,7 +9,7 @@ It enables end-users to efficiently manage shoe inventory, track stock levels, a
 - 🚀 **User-Friendly Interface**: Simple and clean design ensures a smooth user experience.
 - 🚀 **Contact Support**: Direct access to support for user inquiries.
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 - **Microsoft Power Apps**: For building the application interface and logic.
 - **Power BI**: For generating dynamic dashboards and visualizations.
