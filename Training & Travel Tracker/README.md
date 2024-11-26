@@ -1,4 +1,4 @@
-# 🌐 CFTC Training & Travel Tracker
+# 🌐Training & Travel Tracker
 
 A responsive Canvas app designed to streamline the management of organizational training and travel logs. This app simplifies data entry,
 tracking ensuring an efficient process for all users.
