@@ -6,7 +6,6 @@ It enables end-users to efficiently manage shoe inventory, track stock levels, a
 
 - 🚀 **Inventory Management**: End-users can easily add, view, update, and delete inventory items with a simple interface.
 - 🚀 **Interactive Dashboard**: Analyze inventory performance with Power BI integration for insights into sales and stock trends.
-- 🚀 **Barcode Scanning**: Quickly add or retrieve inventory details using the integrated barcode scanner.
 - 🚀 **User-Friendly Interface**: Simple and clean design ensures a smooth user experience.
 - 🚀 **Contact Support**: Direct access to support for user inquiries.
 
