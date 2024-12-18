@@ -92,6 +92,7 @@ This solution was created as part of the **Power Up Challenge** to address the o
 
 ---
 ## Screenshots
+**![Image Alt text](Images/paw11.jpg)**
 **![Image Alt text](Images/paw.jpg)**
 **![Image Alt text](Images/paw1.jpg)**
 **![Image Alt text](Images/paw2.jpg)**
