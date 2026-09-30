@@ -1,92 +1,64 @@
-🏗️ SharePoint Site Template Integration Automation
+<p align="center">
+  <img src="../assets/readme/banners/sharepoint-site-templates.svg" alt="SharePoint Site Templates: re-enable and apply site templates to subsites" width="100%">
+</p>
 
-🌟 Overview
+**PowerShell steps that allow custom scripts on SharePoint Online sites, so a site can be saved as a template and that template applied to a subsite.**
 
-This project aims to automate the process of integrating SharePoint site templates, enhancing efficiency and streamlining operations.
+<p>
+  <img src="https://img.shields.io/badge/SharePoint%20Online-0B6A0B?style=flat-square" alt="SharePoint Online">
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square" alt="PowerShell">
+  <img src="https://img.shields.io/badge/SPO%20Management%20Shell-0078D4?style=flat-square" alt="SharePoint Online Management Shell">
+</p>
 
+## The problem
 
-# Efficiency
+Modern SharePoint Online sites block custom scripts by default, so **Save site as template** is not available and subsites have to be configured by hand, one at a time. Manual configuration is slow and inconsistent.
 
-Automates the creation and deployment of SharePoint subsites.
-Saves time by eliminating manual template configuration.
-Ensures a consistent and efficient workflow.
+## Key features
 
-# Key Features
+- Re-enables **Save site as template** on an existing site by lifting `DenyAddAndCustomizePages` with `Set-SPOSite`.
+- Prepares the target site the same way so the saved template can be activated under **Solutions** and used to create the subsite.
+- The PowerShell steps are repeatable, which replaces manual configuration and cuts down on errors.
 
-✅ Enables the use of site templates for existing SharePoint sites.
-✅ Automates the integration of templates into subsites.
-✅ Utilizes PowerShell scripting for seamless and automated deployment.
-✅ Eliminates manual errors and reduces the need for repetitive tasks.
+```mermaid
+flowchart LR
+  A[Connect-SPOService<br/>admin center] --> B[Set-SPOSite template site<br/>DenyAddAndCustomizePages = false]
+  B --> C[Site Settings →<br/>Save site as template]
+  C --> D[Set-SPOSite target site<br/>DenyAddAndCustomizePages = false]
+  D --> E[Solutions → activate template<br/>→ create subsite]
+```
 
-# Technologies
+## How to run
 
-🔹 SharePoint Online
-🔹 PowerShell Scripting
-🔹 Microsoft Online Management Shell
+Prerequisites: SharePoint admin rights and the SharePoint Online Management Shell.
 
-# Prerequisites
-
-Before running the automation:
-
-
-✅ Install the SharePoint Online Management Shell:
-
+```powershell
 Install-Module -Name Microsoft.Online.SharePoint.PowerShell
 
-✅ Ensure admin access to the SharePoint Online Admin Center.
-✅ Have valid tenant name and site URLs.
-
-# Step-by-Step Guide
-
-1️⃣ Connect to SharePoint Admin Center:
-
-
+# Connect to the SharePoint admin center
 Connect-SPOService -Url https://TenantName-admin.sharepoint.com
 
-2️⃣ Prepare Target Site:
-
-
+# Allow custom scripts on the site you will save as a template
 Set-SPOSite -Identity https://TenantName.sharepoint.com/sites/TemplateSiteName -DenyAddAndCustomizePages $false
 
-3️⃣ Save Site as Template:
-
-
-Navigate to Site Settings of the target site.
-Select "Save site as template" under Site Actions.
-Provide a name for the template and save it.
-
-4️⃣ Integrate Template on Subsite:
-
-
+# Allow custom scripts on the site that will host the new subsite
 Set-SPOSite -Identity https://TenantName.sharepoint.com/sites/TargetSubsite -DenyAddAndCustomizePages $false
+```
 
-5️⃣ Apply Template:
+Then:
 
+1. On the template site, go to **Site Settings → Save site as template**.
+2. On the target site, go to **Site Settings → Solutions**, activate the template and create the subsite.
 
-Go to the target subsite's Site Settings.
-Under Site Actions, select "Solutions".
-Activate the saved template and create the subsite.
+Replace `TenantName`, `TemplateSiteName` and `TargetSubsite` with your own values.
 
-# Full Automation Script
+## Screenshots
 
-# Connect to SharePoint Admin Center
-Connect-SPOService -Url https://TenantName-admin.sharepoint.com
+![Template step 1](Images/template1.jpg)
+![Template step 2](Images/template2.jpg)
+![Template step 3](Images/template3.png)
+![Template step 4](Images/template4.jpg)
 
-# Prepare Target Site
-Set-SPOSite -Identity https://TenantName.sharepoint.com/sites/TemplateSiteName -DenyAddAndCustomizePages $false
+---
 
-# Integrate Template on Subsite
-Set-SPOSite -Identity https://TenantName.sharepoint.com/sites/TargetSubsite -DenyAddAndCustomizePages $false
-
-
-
-# Screenshots
-## Project Images 
-**![Image Alt text](Images/template1.jpg)**
-**![Image Alt text](Images/template2.jpg)**
-**![Image Alt text](Images/template3.jpg)**
-**![Image Alt text](Images/template4.jpg)**
-
-## Connect with Me:
-
-- LinkedIn: [Munir Ali ](https://www.linkedin.com/in/munir-ali-7b9607234/)
+Built by [Munir Ali](https://www.linkedin.com/in/munir-ali-7b9607234/) · [Back to portfolio](../README.md)

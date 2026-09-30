@@ -111,6 +111,25 @@ Code App · React · TypeScript · Dataverse
 </tr>
 </table>
 
+---
+
+## 📂 Projects
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [Asset Register](./asset-register) | Code app for tracking equipment, sites and 1–5 condition checks, with server-side filtering and a per-site overview | Code App · React · TypeScript · Dataverse |
+| [Portfolio Solution](./solution) | Unpacked Dataverse solution behind the Asset Register: tables, choices, three security roles, a secured cost column and the packaged app | Dataverse · Solution Packager |
+| [Approval Workflows](./Approval%20Workflows) | Custom-response, sequential, parallel and Teams adaptive card approval flows | Power Automate · SharePoint · Teams |
+| [Paw & Heart Animal Shelter Management](./Paw%20%26%20Heart%20Animal%20Shelter%20Management) | Shelter, animal and foster-family management with a staff app, a foster app, email automation and Power BI | Dataverse · Model-driven · Canvas · Power Automate · Power BI |
+| [Document Management](./Document-Manegement%28Sharepoint-PowerAutomate%29) | SharePoint library with JSON-formatted views, approvals, a rejected-document folder and 7-day clean-up | SharePoint · Power Automate |
+| [Dynamic Tab Visibility](./DynamicTabVisibility_JS) | Model-driven form script that shows or hides a tab from a choice field, using the execution context | JavaScript · Client API |
+| [SharePoint Site Templates](./Automate%20SharePoint%20Site%20Template%20Integration) | PowerShell steps to re-enable "Save site as template" and apply it to subsites | SharePoint Online · PowerShell |
+| [Weather API](./Weather-API) | Weather app built on a custom connector (`GetWeatherAndForecast`), with a °C/°F toggle | Power Apps · Custom Connector |
+| [Shoes Shop App](./Shoes%20Shop%20App) | Shoe inventory CRUD app on SharePoint with a Power BI dashboard | Power Apps · SharePoint · Power BI |
+| [Training & Travel Tracker](./Training%20%26%20Travel%20Tracker) | Responsive canvas app for logging training sessions and travel | Power Apps (Canvas) |
+
+---
+
 ## 💡 Insights
 
 Short write-ups on things I've learned shipping Power Platform to production.
