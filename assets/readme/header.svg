@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+<style>
+  .name{font:700 64px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#FFFFFF;letter-spacing:1px}
+  .role{font:500 30px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#E0F2FE}
+  .tag{font:600 15px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#BAE6FD;letter-spacing:4px}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0B1E4A"><animate attributeName="stop-color" values="#0B1E4A;#3B0B5E;#0B1E4A" dur="12s" repeatCount="indefinite"/></stop>
+    <stop offset="55%" stop-color="#5B2BA6"><animate attributeName="stop-color" values="#5B2BA6;#0E5A8A;#5B2BA6" dur="12s" repeatCount="indefinite"/></stop>
+    <stop offset="100%" stop-color="#0E7490"><animate attributeName="stop-color" values="#0E7490;#7E22CE;#0E7490" dur="12s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+  <radialGradient id="glow"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+<circle cx="980" cy="90" r="120" fill="url(#glow)"><animate attributeName="cy" values="90;120;90" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="1110" cy="250" r="80" fill="url(#glow)"><animate attributeName="cx" values="1110;1070;1110" dur="9s" repeatCount="indefinite"/></circle>
+<g fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2">
+  <rect x="900" y="70" width="70" height="70" rx="14"><animateTransform attributeName="transform" type="rotate" values="12 935 105;372 935 105" dur="30s" repeatCount="indefinite"/></rect>
+  <circle cx="1040" cy="170" r="34"><animate attributeName="r" values="34;42;34" dur="5s" repeatCount="indefinite"/></circle>
+  <path d="M1080 60 l30 52 h-60z"><animateTransform attributeName="transform" type="translate" values="0 0;0 14;0 0" dur="6s" repeatCount="indefinite"/></path>
+</g>
+<text x="82" y="92" class="tag">POWER PLATFORM · DYNAMICS 365 · AI AGENTS</text>
+<text x="78" y="160" class="name">Munir Ali</text>
+
+  <clipPath id="c0"><rect x="80" y="178" height="50" width="0"><animate attributeName="width" values="0;496;496;0" keyTimes="0.000;0.087;0.230;1.000" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+  <g opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.000;0.230;0.231;1.000" dur="14s" repeatCount="indefinite"/>
+    <text x="80" y="214" clip-path="url(#c0)" class="role">Senior Power Platform Developer</text>
+    <rect y="186" width="3" height="34" fill="#7DD3FC"><animate attributeName="x" values="86;582;582;86" keyTimes="0.000;0.087;0.230;1.000" dur="14s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
+  </g>
+  <clipPath id="c1"><rect x="80" y="178" height="50" width="0"><animate attributeName="width" values="0;0;368;368;0" keyTimes="0.000;0.250;0.338;0.480;1.000" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.000;0.250;0.251;0.480;0.481;1.000" dur="14s" repeatCount="indefinite"/>
+    <text x="80" y="214" clip-path="url(#c1)" class="role">Dynamics 365 Consultant</text>
+    <rect y="186" width="3" height="34" fill="#7DD3FC"><animate attributeName="x" values="86;86;454;454;86" keyTimes="0.000;0.250;0.338;0.480;1.000" dur="14s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
+  </g>
+  <clipPath id="c2"><rect x="80" y="178" height="50" width="0"><animate attributeName="width" values="0;0;560;560;0" keyTimes="0.000;0.500;0.588;0.730;1.000" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.000;0.500;0.501;0.730;0.731;1.000" dur="14s" repeatCount="indefinite"/>
+    <text x="80" y="214" clip-path="url(#c2)" class="role">AI Agent Architect · Copilot Studio</text>
+    <rect y="186" width="3" height="34" fill="#7DD3FC"><animate attributeName="x" values="86;86;646;646;86" keyTimes="0.000;0.500;0.588;0.730;1.000" dur="14s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
+  </g>
+  <clipPath id="c3"><rect x="80" y="178" height="50" width="0"><animate attributeName="width" values="0;0;400;400;0" keyTimes="0.000;0.750;0.838;0.980;1.000" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.000;0.750;0.751;0.980;0.981;1.000" dur="14s" repeatCount="indefinite"/>
+    <text x="80" y="214" clip-path="url(#c3)" class="role">PL-400 · AB-620 Certified</text>
+    <rect y="186" width="3" height="34" fill="#7DD3FC"><animate attributeName="x" values="86;86;486;486;86" keyTimes="0.000;0.750;0.838;0.980;1.000" dur="14s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
+  </g>
+<rect x="80" y="252" width="0" height="4" rx="2" fill="#7DD3FC"><animate attributeName="width" values="0;260;260" keyTimes="0;0.15;1" dur="4s" fill="freeze"/></rect>
+</svg>
