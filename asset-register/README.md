@@ -13,6 +13,10 @@
   <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white" alt="ESLint">
 </p>
 
+<p align="center">
+  <img src="docs/images/demo-landing.webp" alt="Asset Register landing page: the headline animates in while a live demo rates a Dell Latitude 7440 as 4, Very good, and saves the check" width="100%">
+</p>
+
 ## The problem
 
 IT and facilities teams track laptops, monitors, AV kit, tools and furniture across several sites in spreadsheets that drift. Nobody is sure which asset is at which site or who holds it, and condition is rarely recorded until something fails.
@@ -26,6 +30,29 @@ IT and facilities teams track laptops, monitors, AV kit, tools and furniture acr
 - **Built for the host frame.** Hash routing (`#/assets/{id}/check`) keeps deep links working inside the Power Apps iframe. Inter is bundled from npm, with no font CDN.
 - **Works on desk and phone.** Dense tables on desktop and cards with large touch targets on phones. Light and dark themes share one token set, and the app respects reduced-motion settings.
 - **Review without a tenant.** `npm run dev:sample` swaps in sample data through a Vite plugin that is only registered in serve mode, so sample data can never reach a production build.
+
+## See it in action
+
+Recorded from the real app running on sample data.
+
+<table>
+<tr>
+<td width="70%" valign="top">
+
+**From overview to a saved check.** Browse the per-site overview, search the asset list, open a condition check, rate it and save. The rating and check date roll straight back onto the asset.
+
+<img src="docs/images/demo-condition-check.webp" alt="Walkthrough: overview dashboard, searching assets for Dell, recording a 4 Very good condition check with a comment, and the saved check appearing on the asset" width="100%">
+
+</td>
+<td width="30%" valign="top">
+
+**On a phone, in dark mode.** Card layout with thumb-sized actions.
+
+<img src="docs/images/demo-mobile-dark.webp" alt="Phone in dark mode: scrolling the asset cards, tapping Check, rating 5 Excellent and saving" width="100%">
+
+</td>
+</tr>
+</table>
 
 ## How it's built
 
