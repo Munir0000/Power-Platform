@@ -1,0 +1,1257 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-26T05:24:50.685Z",
+  "title": "Design System: Asset Register",
+  "extensions": {
+    "colorMeta": {
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Cool Canvas",
+        "canonical": "#f7f8f8",
+        "theme": "light",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242525",
+          "#414242",
+          "#606161",
+          "#818282",
+          "#a4a5a5",
+          "#c8c9c9",
+          "#eeefef"
+        ]
+      },
+      "pane": {
+        "role": "neutral",
+        "displayName": "Pane White",
+        "canonical": "#ffffff",
+        "theme": "light",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "sunken": {
+        "role": "neutral",
+        "displayName": "Sunken",
+        "canonical": "#f1f2f4",
+        "theme": "light",
+        "tonalRamp": [
+          "#0a0b0c",
+          "#242526",
+          "#414243",
+          "#606163",
+          "#818284",
+          "#a4a5a7",
+          "#c8c9cb",
+          "#edeef0"
+        ]
+      },
+      "hover": {
+        "role": "neutral",
+        "displayName": "Row Hover",
+        "canonical": "#f5f6f8",
+        "theme": "light",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242526",
+          "#414243",
+          "#606163",
+          "#818284",
+          "#a4a5a7",
+          "#c8c9cb",
+          "#edeef0"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Graphite Ink",
+        "canonical": "#16181d",
+        "theme": "light",
+        "tonalRamp": [
+          "#090b10",
+          "#23252a",
+          "#404248",
+          "#5f6167",
+          "#808289",
+          "#a2a5ac",
+          "#c6c9d0",
+          "#ebeef6"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "#3d414a",
+        "theme": "light",
+        "tonalRamp": [
+          "#080b12",
+          "#21252d",
+          "#3e424b",
+          "#5d616b",
+          "#7e828c",
+          "#a0a5b0",
+          "#c4c9d4",
+          "#e9eefa"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#626873",
+        "theme": "light",
+        "tonalRamp": [
+          "#070b13",
+          "#20252e",
+          "#3d424c",
+          "#5c616c",
+          "#7c838e",
+          "#9fa5b1",
+          "#c3c9d6",
+          "#e8effc"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e4e6ea",
+        "theme": "light",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242528",
+          "#404245",
+          "#5f6165",
+          "#808286",
+          "#a3a5a9",
+          "#c7c9cd",
+          "#eceef2"
+        ]
+      },
+      "line-2": {
+        "role": "neutral",
+        "displayName": "Hairline 2",
+        "canonical": "#d3d6dc",
+        "theme": "light",
+        "tonalRamp": [
+          "#090b0f",
+          "#232529",
+          "#404247",
+          "#5f6166",
+          "#808288",
+          "#a2a5ab",
+          "#c6c9cf",
+          "#ebeef5"
+        ]
+      },
+      "control": {
+        "role": "neutral",
+        "displayName": "Control Stroke",
+        "canonical": "#8c929c",
+        "theme": "light",
+        "tonalRamp": [
+          "#070b12",
+          "#21252d",
+          "#3d424b",
+          "#5c626b",
+          "#7d838c",
+          "#9fa5b0",
+          "#c3cad4",
+          "#e8effa"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Graphite Indigo",
+        "canonical": "#4f5bd5",
+        "theme": "light",
+        "tonalRamp": [
+          "#120058",
+          "#19007c",
+          "#2c29a1",
+          "#454fc8",
+          "#6373ef",
+          "#8397ff",
+          "#a5bdff",
+          "#c9e3ff"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Indigo Hover",
+        "canonical": "#4450c6",
+        "theme": "light",
+        "tonalRamp": [
+          "#110056",
+          "#18007a",
+          "#2a2ba0",
+          "#4450c6",
+          "#6274ed",
+          "#8298ff",
+          "#a4beff",
+          "#c7e4ff"
+        ]
+      },
+      "accent-press": {
+        "role": "primary",
+        "displayName": "Indigo Press",
+        "canonical": "#3a45b0",
+        "theme": "light",
+        "tonalRamp": [
+          "#0e0051",
+          "#160074",
+          "#2a2f99",
+          "#4553bf",
+          "#6376e6",
+          "#839aff",
+          "#a6bfff",
+          "#cae5ff"
+        ]
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Indigo Wash",
+        "canonical": "#eceefc",
+        "theme": "light",
+        "tonalRamp": [
+          "#090a13",
+          "#23242e",
+          "#40414c",
+          "#5f606c",
+          "#80818e",
+          "#a2a4b1",
+          "#c6c8d6",
+          "#ebedfb"
+        ]
+      },
+      "accent-ink": {
+        "role": "primary",
+        "displayName": "Indigo Ink",
+        "canonical": "#3b45b5",
+        "theme": "light",
+        "tonalRamp": [
+          "#100053",
+          "#170077",
+          "#2a2d9c",
+          "#4551c2",
+          "#6275e9",
+          "#8399ff",
+          "#a5beff",
+          "#c9e5ff"
+        ]
+      },
+      "on-accent": {
+        "role": "primary",
+        "displayName": "On Indigo",
+        "canonical": "#ffffff",
+        "theme": "light",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ok": {
+        "role": "tertiary",
+        "displayName": "Calm Green",
+        "canonical": "#1f9255",
+        "theme": "light",
+        "tonalRamp": [
+          "#001700",
+          "#003500",
+          "#00551c",
+          "#00763b",
+          "#2a995c",
+          "#55be7e",
+          "#7be3a1",
+          "#a1ffc5"
+        ]
+      },
+      "ok-ink": {
+        "role": "tertiary",
+        "displayName": "Calm Green Ink",
+        "canonical": "#16683d",
+        "theme": "light",
+        "tonalRamp": [
+          "#001500",
+          "#00320a",
+          "#005128",
+          "#247246",
+          "#499567",
+          "#6db888",
+          "#91ddac",
+          "#b6ffd0"
+        ]
+      },
+      "ok-soft": {
+        "role": "tertiary",
+        "displayName": "Calm Green Tint",
+        "canonical": "#e7f5ed",
+        "theme": "light",
+        "tonalRamp": [
+          "#050e09",
+          "#1d2822",
+          "#3a453f",
+          "#59655e",
+          "#79867f",
+          "#9ca9a1",
+          "#bfcdc5",
+          "#e5f2eb"
+        ]
+      },
+      "info": {
+        "role": "tertiary",
+        "displayName": "Steel Blue",
+        "canonical": "#3d8ac4",
+        "theme": "light",
+        "tonalRamp": [
+          "#000437",
+          "#002558",
+          "#00457a",
+          "#0f669e",
+          "#3c89c3",
+          "#60ace9",
+          "#85d1ff",
+          "#aaf7ff"
+        ]
+      },
+      "info-ink": {
+        "role": "tertiary",
+        "displayName": "Steel Blue Ink",
+        "canonical": "#235f8c",
+        "theme": "light",
+        "tonalRamp": [
+          "#00082f",
+          "#00264f",
+          "#004571",
+          "#2b6693",
+          "#4d88b8",
+          "#70abdd",
+          "#94d0ff",
+          "#b8f6ff"
+        ]
+      },
+      "info-soft": {
+        "role": "tertiary",
+        "displayName": "Steel Blue Tint",
+        "canonical": "#e6f1f9",
+        "theme": "light",
+        "tonalRamp": [
+          "#060c11",
+          "#1e262c",
+          "#3a434a",
+          "#596369",
+          "#7a848b",
+          "#9ca7ae",
+          "#c0cbd3",
+          "#e5f0f8"
+        ]
+      },
+      "warn": {
+        "role": "tertiary",
+        "displayName": "Amber",
+        "canonical": "#cf8413",
+        "theme": "light",
+        "tonalRamp": [
+          "#2b0000",
+          "#4d0500",
+          "#702b00",
+          "#934d00",
+          "#b86f00",
+          "#de922c",
+          "#ffb757",
+          "#ffdc7e"
+        ]
+      },
+      "warn-ink": {
+        "role": "tertiary",
+        "displayName": "Amber Ink",
+        "canonical": "#8a5300",
+        "theme": "light",
+        "tonalRamp": [
+          "#250000",
+          "#451300",
+          "#673300",
+          "#8a5300",
+          "#ae7431",
+          "#d39756",
+          "#f9bb7a",
+          "#ffe19e"
+        ]
+      },
+      "warn-soft": {
+        "role": "tertiary",
+        "displayName": "Amber Tint",
+        "canonical": "#fcf2e0",
+        "theme": "light",
+        "tonalRamp": [
+          "#110a01",
+          "#2b2416",
+          "#494132",
+          "#696051",
+          "#8a8171",
+          "#ada493",
+          "#d2c8b7",
+          "#f7eddb"
+        ]
+      },
+      "danger": {
+        "role": "tertiary",
+        "displayName": "Brick Red",
+        "canonical": "#d14343",
+        "theme": "light",
+        "tonalRamp": [
+          "#3a0000",
+          "#610000",
+          "#890002",
+          "#b02028",
+          "#d94a49",
+          "#ff706b",
+          "#ff958e",
+          "#ffbbb2"
+        ]
+      },
+      "danger-ink": {
+        "role": "tertiary",
+        "displayName": "Brick Red Ink",
+        "canonical": "#a52a2a",
+        "theme": "light",
+        "tonalRamp": [
+          "#360000",
+          "#5c0000",
+          "#82000b",
+          "#a92e2d",
+          "#d1544e",
+          "#f97870",
+          "#ff9d92",
+          "#ffc2b7"
+        ]
+      },
+      "danger-soft": {
+        "role": "tertiary",
+        "displayName": "Brick Red Tint",
+        "canonical": "#fcebeb",
+        "theme": "light",
+        "tonalRamp": [
+          "#120808",
+          "#2e2222",
+          "#4b3e3e",
+          "#6b5d5d",
+          "#8d7e7e",
+          "#b0a1a1",
+          "#d5c5c5",
+          "#fbeaea"
+        ]
+      },
+      "neutral": {
+        "role": "neutral",
+        "displayName": "Graphite Grey",
+        "canonical": "#6b717c",
+        "theme": "light",
+        "tonalRamp": [
+          "#070b13",
+          "#20252e",
+          "#3d424c",
+          "#5c616c",
+          "#7c838e",
+          "#9fa5b1",
+          "#c3c9d6",
+          "#e8effb"
+        ]
+      },
+      "neutral-soft": {
+        "role": "neutral",
+        "displayName": "Graphite Grey Tint",
+        "canonical": "#eef0f2",
+        "theme": "light",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#242527",
+          "#414244",
+          "#606163",
+          "#818284",
+          "#a3a5a7",
+          "#c7c9cb",
+          "#edeff1"
+        ]
+      },
+      "seg-off": {
+        "role": "neutral",
+        "displayName": "Segment Off",
+        "canonical": "#e1e4e8",
+        "theme": "light",
+        "tonalRamp": [
+          "#090b0e",
+          "#232528",
+          "#404245",
+          "#5f6165",
+          "#808286",
+          "#a2a5a9",
+          "#c6c9cd",
+          "#eceff3"
+        ]
+      },
+      "canvas-dark": {
+        "role": "neutral",
+        "displayName": "Cool Canvas (dark)",
+        "canonical": "#0f1011",
+        "theme": "dark",
+        "tonalRamp": [
+          "#0a0b0c",
+          "#242526",
+          "#414243",
+          "#606163",
+          "#818284",
+          "#a4a5a7",
+          "#c8c9cb",
+          "#edeff0"
+        ]
+      },
+      "pane-dark": {
+        "role": "neutral",
+        "displayName": "Pane White (dark)",
+        "canonical": "#16171a",
+        "theme": "dark",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242528",
+          "#414245",
+          "#606165",
+          "#818286",
+          "#a3a5a9",
+          "#c7c9cd",
+          "#edeef3"
+        ]
+      },
+      "sunken-dark": {
+        "role": "neutral",
+        "displayName": "Sunken (dark)",
+        "canonical": "#1d1f23",
+        "theme": "dark",
+        "tonalRamp": [
+          "#090b0f",
+          "#232529",
+          "#404246",
+          "#5f6166",
+          "#808287",
+          "#a2a5aa",
+          "#c6c9cf",
+          "#eceef4"
+        ]
+      },
+      "hover-dark": {
+        "role": "neutral",
+        "displayName": "Row Hover (dark)",
+        "canonical": "#1b1c20",
+        "theme": "dark",
+        "tonalRamp": [
+          "#0a0b0f",
+          "#242529",
+          "#414246",
+          "#606166",
+          "#818287",
+          "#a3a5aa",
+          "#c7c9ce",
+          "#edeef4"
+        ]
+      },
+      "ink-dark": {
+        "role": "neutral",
+        "displayName": "Graphite Ink (dark)",
+        "canonical": "#f2f3f5",
+        "theme": "dark",
+        "tonalRamp": [
+          "#0a0b0c",
+          "#242526",
+          "#414243",
+          "#606163",
+          "#818284",
+          "#a4a5a7",
+          "#c8c9cb",
+          "#edeef0"
+        ]
+      },
+      "ink-2-dark": {
+        "role": "neutral",
+        "displayName": "Ink 2 (dark)",
+        "canonical": "#c9ced6",
+        "theme": "dark",
+        "tonalRamp": [
+          "#080b10",
+          "#22252b",
+          "#3e4249",
+          "#5d6168",
+          "#7e838a",
+          "#a1a5ad",
+          "#c4c9d1",
+          "#eaeff7"
+        ]
+      },
+      "muted-dark": {
+        "role": "neutral",
+        "displayName": "Muted (dark)",
+        "canonical": "#8f96a1",
+        "theme": "dark",
+        "tonalRamp": [
+          "#070b13",
+          "#20252e",
+          "#3c424c",
+          "#5b626c",
+          "#7c838e",
+          "#9ea6b1",
+          "#c2cad5",
+          "#e7effb"
+        ]
+      },
+      "line-dark": {
+        "role": "neutral",
+        "displayName": "Hairline (dark)",
+        "canonical": "#25272c",
+        "theme": "dark",
+        "tonalRamp": [
+          "#090b0f",
+          "#23252a",
+          "#404247",
+          "#5f6167",
+          "#808288",
+          "#a2a5ab",
+          "#c6c9d0",
+          "#eceef5"
+        ]
+      },
+      "line-2-dark": {
+        "role": "neutral",
+        "displayName": "Hairline 2 (dark)",
+        "canonical": "#31343b",
+        "theme": "dark",
+        "tonalRamp": [
+          "#090b11",
+          "#22252c",
+          "#3f4249",
+          "#5e6169",
+          "#7f828a",
+          "#a1a5ae",
+          "#c5c9d2",
+          "#eaeef8"
+        ]
+      },
+      "control-dark": {
+        "role": "neutral",
+        "displayName": "Control Stroke (dark)",
+        "canonical": "#636a75",
+        "theme": "dark",
+        "tonalRamp": [
+          "#070b13",
+          "#1f252f",
+          "#3c424d",
+          "#5b626d",
+          "#7c838e",
+          "#9ea6b2",
+          "#c2cad6",
+          "#e7effc"
+        ]
+      },
+      "accent-dark": {
+        "role": "primary",
+        "displayName": "Graphite Indigo (dark)",
+        "canonical": "#8a93f0",
+        "theme": "dark",
+        "tonalRamp": [
+          "#0c0042",
+          "#1c1064",
+          "#353488",
+          "#5155ac",
+          "#7078d2",
+          "#929bf9",
+          "#b5c0ff",
+          "#d9e5ff"
+        ]
+      },
+      "accent-hover-dark": {
+        "role": "primary",
+        "displayName": "Indigo Hover (dark)",
+        "canonical": "#9ea6f4",
+        "theme": "dark",
+        "tonalRamp": [
+          "#0a0038",
+          "#1d1859",
+          "#37387c",
+          "#5458a0",
+          "#747ac5",
+          "#969deb",
+          "#b9c2ff",
+          "#dde7ff"
+        ]
+      },
+      "accent-press-dark": {
+        "role": "primary",
+        "displayName": "Indigo Press (dark)",
+        "canonical": "#7a83e6",
+        "theme": "dark",
+        "tonalRamp": [
+          "#0d0047",
+          "#1c0b69",
+          "#33328d",
+          "#5054b2",
+          "#6f77d8",
+          "#909aff",
+          "#b2bfff",
+          "#d7e5ff"
+        ]
+      },
+      "accent-soft-dark": {
+        "role": "primary",
+        "displayName": "Indigo Wash (dark)",
+        "canonical": "#23264a",
+        "theme": "dark",
+        "tonalRamp": [
+          "#070526",
+          "#1e2144",
+          "#3a3e64",
+          "#585e86",
+          "#797faa",
+          "#9ba2ce",
+          "#bec6f4",
+          "#e3ebff"
+        ]
+      },
+      "accent-ink-dark": {
+        "role": "primary",
+        "displayName": "Indigo Ink (dark)",
+        "canonical": "#b9befa",
+        "theme": "dark",
+        "tonalRamp": [
+          "#09012d",
+          "#1f1d4c",
+          "#3a3b6e",
+          "#585b90",
+          "#797cb4",
+          "#9b9fd9",
+          "#bec3ff",
+          "#e3e9ff"
+        ]
+      },
+      "on-accent-dark": {
+        "role": "primary",
+        "displayName": "On Indigo (dark)",
+        "canonical": "#0f1011",
+        "theme": "dark",
+        "tonalRamp": [
+          "#0a0b0c",
+          "#242526",
+          "#414243",
+          "#606163",
+          "#818284",
+          "#a4a5a7",
+          "#c8c9cb",
+          "#edeff0"
+        ]
+      },
+      "ok-dark": {
+        "role": "tertiary",
+        "displayName": "Calm Green (dark)",
+        "canonical": "#3fb97a",
+        "theme": "dark",
+        "tonalRamp": [
+          "#001700",
+          "#003600",
+          "#00561e",
+          "#00783e",
+          "#0c9b5e",
+          "#46bf80",
+          "#6fe5a3",
+          "#97ffc7"
+        ]
+      },
+      "ok-ink-dark": {
+        "role": "tertiary",
+        "displayName": "Calm Green Ink (dark)",
+        "canonical": "#82d8a8",
+        "theme": "dark",
+        "tonalRamp": [
+          "#001600",
+          "#00330e",
+          "#00522b",
+          "#127349",
+          "#3f9669",
+          "#64ba8b",
+          "#89dfaf",
+          "#aeffd3"
+        ]
+      },
+      "ok-soft-dark": {
+        "role": "tertiary",
+        "displayName": "Calm Green Tint (dark)",
+        "canonical": "#152a1f",
+        "theme": "dark",
+        "tonalRamp": [
+          "#000f06",
+          "#152a1f",
+          "#32483c",
+          "#51685a",
+          "#71897b",
+          "#93ac9e",
+          "#b7d0c2",
+          "#dcf6e7"
+        ]
+      },
+      "info-dark": {
+        "role": "tertiary",
+        "displayName": "Steel Blue (dark)",
+        "canonical": "#5aa7e0",
+        "theme": "dark",
+        "tonalRamp": [
+          "#000536",
+          "#002656",
+          "#004678",
+          "#0e679c",
+          "#3b89c1",
+          "#60ade6",
+          "#84d2ff",
+          "#a9f8ff"
+        ]
+      },
+      "info-ink-dark": {
+        "role": "tertiary",
+        "displayName": "Steel Blue Ink (dark)",
+        "canonical": "#9ccbef",
+        "theme": "dark",
+        "tonalRamp": [
+          "#000b26",
+          "#002844",
+          "#194664",
+          "#3a6686",
+          "#5b88a9",
+          "#7dabce",
+          "#a0d0f4",
+          "#c5f5ff"
+        ]
+      },
+      "info-soft-dark": {
+        "role": "tertiary",
+        "displayName": "Steel Blue Tint (dark)",
+        "canonical": "#14253a",
+        "theme": "dark",
+        "tonalRamp": [
+          "#000b1e",
+          "#15263b",
+          "#31435a",
+          "#4f637b",
+          "#70849e",
+          "#92a7c2",
+          "#b5cbe7",
+          "#daf1ff"
+        ]
+      },
+      "warn-dark": {
+        "role": "tertiary",
+        "displayName": "Amber (dark)",
+        "canonical": "#e0a040",
+        "theme": "dark",
+        "tonalRamp": [
+          "#270000",
+          "#481000",
+          "#6a3100",
+          "#8d5200",
+          "#b17400",
+          "#d69735",
+          "#fdbb5e",
+          "#ffe184"
+        ]
+      },
+      "warn-ink-dark": {
+        "role": "tertiary",
+        "displayName": "Amber Ink (dark)",
+        "canonical": "#f1c47e",
+        "theme": "dark",
+        "tonalRamp": [
+          "#200000",
+          "#3f1a00",
+          "#5f3900",
+          "#815803",
+          "#a47a33",
+          "#c89d57",
+          "#eec17b",
+          "#ffe7a0"
+        ]
+      },
+      "warn-soft-dark": {
+        "role": "tertiary",
+        "displayName": "Amber Tint (dark)",
+        "canonical": "#2d2313",
+        "theme": "dark",
+        "tonalRamp": [
+          "#120900",
+          "#2d2313",
+          "#4b402f",
+          "#6b5f4e",
+          "#8d806e",
+          "#b0a390",
+          "#d4c7b3",
+          "#faedd8"
+        ]
+      },
+      "danger-dark": {
+        "role": "tertiary",
+        "displayName": "Brick Red (dark)",
+        "canonical": "#ef6b6b",
+        "theme": "dark",
+        "tonalRamp": [
+          "#370000",
+          "#5d0000",
+          "#840013",
+          "#ab2b33",
+          "#d25153",
+          "#fb7675",
+          "#ff9a98",
+          "#ffc0bc"
+        ]
+      },
+      "danger-ink-dark": {
+        "role": "tertiary",
+        "displayName": "Brick Red Ink (dark)",
+        "canonical": "#f6a7a7",
+        "theme": "dark",
+        "tonalRamp": [
+          "#270000",
+          "#480811",
+          "#6b2a2d",
+          "#8f494b",
+          "#b46b6c",
+          "#da8d8d",
+          "#ffb1b1",
+          "#ffd6d5"
+        ]
+      },
+      "danger-soft-dark": {
+        "role": "tertiary",
+        "displayName": "Brick Red Tint (dark)",
+        "canonical": "#331a1b",
+        "theme": "dark",
+        "tonalRamp": [
+          "#190405",
+          "#361d1e",
+          "#55393a",
+          "#765859",
+          "#997979",
+          "#bd9c9c",
+          "#e2bfbf",
+          "#ffe4e5"
+        ]
+      },
+      "neutral-dark": {
+        "role": "neutral",
+        "displayName": "Graphite Grey (dark)",
+        "canonical": "#a3aab5",
+        "theme": "dark",
+        "tonalRamp": [
+          "#070b13",
+          "#20252e",
+          "#3c424c",
+          "#5b626c",
+          "#7c838d",
+          "#9fa6b0",
+          "#c2cad5",
+          "#e8effb"
+        ]
+      },
+      "neutral-soft-dark": {
+        "role": "neutral",
+        "displayName": "Graphite Grey Tint (dark)",
+        "canonical": "#24262b",
+        "theme": "dark",
+        "tonalRamp": [
+          "#090b0f",
+          "#23252a",
+          "#404247",
+          "#5f6167",
+          "#808288",
+          "#a2a5ab",
+          "#c6c9d0",
+          "#eceef5"
+        ]
+      },
+      "seg-off-dark": {
+        "role": "neutral",
+        "displayName": "Segment Off (dark)",
+        "canonical": "#2e3137",
+        "theme": "dark",
+        "tonalRamp": [
+          "#090b10",
+          "#22252b",
+          "#3f4248",
+          "#5e6168",
+          "#7f8289",
+          "#a1a5ac",
+          "#c5c9d1",
+          "#ebeff6"
+        ]
+      }
+    },
+    "themes": {
+      "light": {
+        "selector": ":root"
+      },
+      "dark": {
+        "selector": "@media (prefers-color-scheme: dark) :root",
+        "note": "Keys suffixed -dark in frontmatter override the same CSS custom property (without suffix) in dark mode."
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page title; one per screen."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Rating key numbers and the large current-condition number; tabular."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Pane and empty-state headings, rating legend; phone input size."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default text, table cells, buttons (500)."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, table headers, chips, scope pill, small buttons."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Relative dates, Required, counters, rating words."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Asset tags and serial numbers only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-float",
+        "value": "0 -1px 0 var(--line), 0 -8px 24px -12px rgb(16 18 24 / 0.12)",
+        "darkValue": "0 -1px 0 var(--line), 0 -8px 24px -12px rgb(0 0 0 / 0.6)",
+        "purpose": "Only the pinned phone action bar."
+      },
+      {
+        "name": "focus-ring-field",
+        "value": "0 0 0 3px color-mix(in srgb, var(--accent) 28%, transparent)",
+        "purpose": "Focus on inputs, selects, textareas (with accent border)."
+      },
+      {
+        "name": "focus-inset",
+        "value": "inset 0 0 0 2px var(--accent)",
+        "purpose": "Focused table rows and rating keys."
+      },
+      {
+        "name": "selected-inset",
+        "value": "inset 0 0 0 2px var(--tone)",
+        "purpose": "Selected rating key, in its condition tone."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Entrances and rating key state changes."
+      },
+      {
+        "name": "dur-1",
+        "value": "120ms",
+        "purpose": "Colour, border and background transitions on controls and rows."
+      },
+      {
+        "name": "dur-2",
+        "value": "200ms",
+        "purpose": "Route entrance (fade from 0.4 plus 6px rise), alert/saved settle, stale fade, rating key selection."
+      },
+      {
+        "name": "fresh",
+        "value": "2.4s ease-out",
+        "purpose": "Accent-soft highlight fading off a newly saved history entry."
+      },
+      {
+        "name": "breathe",
+        "value": "1.6s ease-in-out infinite alternate",
+        "purpose": "Skeleton opacity 1 to 0.45."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "All animations and transitions collapse under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "900px",
+        "rule": "max-width"
+      },
+      {
+        "name": "phone",
+        "value": "640px",
+        "rule": "max-width"
+      }
+    ],
+    "layers": [
+      {
+        "name": "z-sticky",
+        "value": 10
+      },
+      {
+        "name": "z-topbar",
+        "value": 20
+      },
+      {
+        "name": "z-skip",
+        "value": 30
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one primary action per screen (New asset, Log check, Save).",
+      "html": "<button class=\"ds-btn ds-btn-primary\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg>New asset</button>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:36px; padding:0 16px; border:1px solid var(--line-2,#d3d6dc); border-radius:8px; background:var(--pane,#fff); color:var(--ink,#16181d); font:500 0.875rem/1 'Inter Variable','Segoe UI',system-ui,sans-serif; cursor:pointer; transition:background-color 120ms,border-color 120ms,color 120ms; } .ds-btn-primary { background:var(--accent,#4f5bd5); border-color:var(--accent,#4f5bd5); color:var(--on-accent,#fff); } .ds-btn-primary:hover { background:var(--accent-hover,#4450c6); border-color:var(--accent-hover,#4450c6); } .ds-btn-primary:active { background:var(--accent-press,#3a45b0); border-color:var(--accent-press,#3a45b0); } .ds-btn:focus-visible { outline:2px solid var(--accent,#4f5bd5); outline-offset:2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Default bordered button for Cancel, Load more, Clear filters.",
+      "html": "<button class=\"ds-btn2\">Load more</button>",
+      "css": ".ds-btn2 { display:inline-flex; align-items:center; justify-content:center; min-height:36px; padding:0 16px; border:1px solid var(--line-2,#d3d6dc); border-radius:8px; background:var(--pane,#fff); color:var(--ink,#16181d); font:500 0.875rem/1 'Inter Variable','Segoe UI',system-ui,sans-serif; cursor:pointer; transition:background-color 120ms,border-color 120ms; } .ds-btn2:hover { background:var(--sunken,#f1f2f4); border-color:var(--control,#8c929c); } .ds-btn2:active { background:var(--line,#e4e6ea); } .ds-btn2:focus-visible { outline:2px solid var(--accent,#4f5bd5); outline-offset:2px; }"
+    },
+    {
+      "name": "Quiet Row Action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Small borderless action, e.g. the per-row Check and Retry.",
+      "html": "<button class=\"ds-btn-quiet\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 4h6a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1ZM16 5h1.5A1.5 1.5 0 0 1 19 6.5v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 5 18.5v-12A1.5 1.5 0 0 1 6.5 5H8M9 13.5l2 2 4-4\"/></svg>Check</button>",
+      "css": ".ds-btn-quiet { display:inline-flex; align-items:center; gap:6px; min-height:30px; padding:0 12px; border:1px solid transparent; border-radius:8px; background:transparent; color:var(--ink-2,#3d414a); font:500 0.8125rem/1 'Inter Variable','Segoe UI',system-ui,sans-serif; cursor:pointer; transition:background-color 120ms,color 120ms; } .ds-btn-quiet:hover { background:var(--sunken,#f1f2f4); color:var(--ink,#16181d); } .ds-btn-quiet:focus-visible { outline:2px solid var(--accent,#4f5bd5); outline-offset:2px; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Text input with leading icon and keyboard hint; accent border plus soft ring on focus.",
+      "html": "<label class=\"ds-search\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14ZM20 20l-3.5-3.5\"/></svg><input class=\"ds-input\" placeholder=\"Search name, tag or serial\"><kbd>/</kbd></label>",
+      "css": ".ds-search { position:relative; display:block; max-width:420px; } .ds-search svg { position:absolute; left:12px; top:50%; translate:0 -50%; color:var(--muted,#626873); pointer-events:none; } .ds-search kbd { position:absolute; right:12px; top:50%; translate:0 -50%; min-width:20px; padding:0 5px; border:1px solid var(--line-2,#d3d6dc); border-radius:4px; color:var(--muted,#626873); font:0.75rem/18px 'Inter Variable',system-ui,sans-serif; text-align:center; transition:opacity 120ms; } .ds-input { width:100%; min-height:36px; padding:0 36px; border:1px solid var(--control,#8c929c); border-radius:8px; background:var(--pane,#fff); color:var(--ink,#16181d); font:0.875rem 'Inter Variable','Segoe UI',system-ui,sans-serif; transition:border-color 120ms,box-shadow 120ms; } .ds-input::placeholder { color:var(--muted,#626873); } .ds-input:hover { border-color:var(--muted,#626873); } .ds-input:focus-visible { outline:none; border-color:var(--accent,#4f5bd5); box-shadow:0 0 0 3px color-mix(in srgb, var(--accent,#4f5bd5) 28%, transparent); } .ds-input:focus ~ kbd { opacity:0; }"
+    },
+    {
+      "name": "Status and Condition Meter",
+      "kind": "custom",
+      "refersTo": "meter",
+      "description": "Status as dot plus word; condition as five segments plus its number.",
+      "html": "<div class=\"ds-row\"><span class=\"ds-status\"><span class=\"ds-dot\" style=\"--tone:var(--info,#3d8ac4)\"></span>Assigned</span><span class=\"ds-meter\" style=\"--tone:var(--warn,#cf8413)\"><span class=\"ds-seg on\"></span><span class=\"ds-seg on\"></span><span class=\"ds-seg\"></span><span class=\"ds-seg\"></span><span class=\"ds-seg\"></span><b>2</b></span><span class=\"ds-meter\" style=\"--tone:var(--ok,#1f9255)\"><span class=\"ds-seg on\"></span><span class=\"ds-seg on\"></span><span class=\"ds-seg on\"></span><span class=\"ds-seg on\"></span><span class=\"ds-seg\"></span><b>4</b></span></div>",
+      "css": ".ds-row { display:flex; gap:24px; align-items:center; font:0.875rem 'Inter Variable',system-ui,sans-serif; color:var(--ink-2,#3d414a); } .ds-status { display:inline-flex; align-items:center; gap:6px; } .ds-dot { width:8px; height:8px; border-radius:50%; background:var(--tone); } .ds-meter { display:inline-flex; align-items:center; gap:2px; } .ds-seg { width:10px; height:6px; border-radius:2px; background:var(--seg-off,#e1e4e8); } .ds-seg.on { background:var(--tone); } .ds-meter b { margin-left:6px; color:var(--ink,#16181d); font-weight:600; font-variant-numeric:tabular-nums; }"
+    },
+    {
+      "name": "Rating Input",
+      "kind": "custom",
+      "refersTo": "rating-key",
+      "description": "One unbroken row of five keys; the selected key takes its condition tint and ring.",
+      "html": "<div class=\"ds-rating\" role=\"radiogroup\"><label class=\"ds-key\"><b>1</b><span>Poor</span></label><label class=\"ds-key\"><b>2</b><span>Fair</span></label><label class=\"ds-key\"><b>3</b><span>Good</span></label><label class=\"ds-key is-selected\"><b>4</b><span>Very good</span></label><label class=\"ds-key\"><b>5</b><span>Excellent</span></label></div>",
+      "css": ".ds-rating { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); max-width:560px; border:1px solid var(--control,#8c929c); border-radius:12px; overflow:hidden; font-family:'Inter Variable',system-ui,sans-serif; } .ds-key { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; min-height:68px; background:var(--pane,#fff); color:var(--ink,#16181d); cursor:pointer; transition:background-color 200ms cubic-bezier(0.22,1,0.36,1),box-shadow 200ms cubic-bezier(0.22,1,0.36,1); } .ds-key + .ds-key { border-left:1px solid var(--line-2,#d3d6dc); } .ds-key:hover { background:var(--hover,#f5f6f8); } .ds-key b { font-size:1.125rem; font-weight:600; line-height:1.2; font-variant-numeric:tabular-nums; } .ds-key span { color:var(--muted,#626873); font-size:0.75rem; font-weight:500; } .ds-key.is-selected { background:var(--ok-soft,#e7f5ed); color:var(--ok-ink,#16683d); box-shadow:inset 0 0 0 2px var(--ok,#1f9255); } .ds-key.is-selected span { color:var(--ok-ink,#16683d); font-weight:600; }"
+    },
+    {
+      "name": "Top Bar",
+      "kind": "nav",
+      "refersTo": "scope-pill",
+      "description": "Sticky 52px bar: ink wordmark tile plus name, site scope pill on the right.",
+      "html": "<header class=\"ds-topbar\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-mark\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.5 12.1V4.5a1 1 0 0 1 1-1h7.6a1 1 0 0 1 .7.3l8 8a1 1 0 0 1 0 1.4l-7.6 7.6a1 1 0 0 1-1.4 0l-8-8a1 1 0 0 1-.3-.7ZM8 8.5h.01\"/></svg></span>Asset Register</a><span class=\"ds-scope\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11ZM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z\"/></svg>Riyadh HQ</span></header>",
+      "css": ".ds-topbar { display:flex; align-items:center; justify-content:space-between; height:52px; padding:0 24px; background:var(--canvas,#f7f8f8); border-bottom:1px solid var(--line,#e4e6ea); font-family:'Inter Variable',system-ui,sans-serif; } .ds-brand { display:inline-flex; align-items:center; gap:8px; color:var(--ink,#16181d); font-size:0.875rem; font-weight:600; letter-spacing:-0.01em; text-decoration:none; border-radius:6px; } .ds-brand:focus-visible { outline:2px solid var(--accent,#4f5bd5); outline-offset:2px; } .ds-mark { display:grid; place-items:center; width:24px; height:24px; border-radius:6px; background:var(--ink,#16181d); color:var(--canvas,#f7f8f8); } .ds-scope { display:inline-flex; align-items:center; gap:4px; padding:3px 8px 3px 6px; border:1px solid var(--line,#e4e6ea); border-radius:999px; color:var(--muted,#626873); font-size:0.8125rem; }"
+    },
+    {
+      "name": "Pane",
+      "kind": "card",
+      "refersTo": "pane",
+      "description": "Hairline container on canvas; no shadow.",
+      "html": "<section class=\"ds-pane\"><h2>Condition</h2><p>Last checked Sep 22, 2026 · 4 days ago</p><span class=\"ds-chip\">LT-01098</span></section>",
+      "css": ".ds-pane { max-width:320px; padding:24px; background:var(--pane,#fff); border:1px solid var(--line,#e4e6ea); border-radius:12px; font:0.875rem/1.5 'Inter Variable',system-ui,sans-serif; color:var(--ink,#16181d); } .ds-pane h2 { margin:0 0 8px; font-size:1rem; font-weight:600; letter-spacing:-0.01em; } .ds-pane p { margin:0 0 12px; color:var(--muted,#626873); font-variant-numeric:tabular-nums; } .ds-chip { display:inline-flex; padding:1px 8px; border:1px solid var(--line,#e4e6ea); border-radius:6px; background:var(--pane,#fff); color:var(--ink-2,#3d414a); font:0.8125rem ui-monospace,'Cascadia Mono',Menlo,Consolas,monospace; letter-spacing:-0.01em; }"
+    },
+    {
+      "name": "Success Alert",
+      "kind": "custom",
+      "refersTo": "alert-success",
+      "description": "Inline save confirmation on ok tint; settles in over 200ms.",
+      "html": "<div class=\"ds-alert\" role=\"status\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg><div>Check saved · 4 Very good.</div></div>",
+      "css": ".ds-alert { display:flex; align-items:flex-start; gap:12px; max-width:480px; padding:12px 16px; border:1px solid color-mix(in srgb, var(--ok,#1f9255) 30%, transparent); border-radius:8px; background:var(--ok-soft,#e7f5ed); color:var(--ink,#16181d); font:0.875rem/1.5 'Inter Variable',system-ui,sans-serif; animation:ds-settle 200ms cubic-bezier(0.22,1,0.36,1); } .ds-alert svg { margin-top:2px; color:var(--ok,#1f9255); flex:none; } @keyframes ds-settle { from { opacity:0; transform:translateY(-4px); } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Graphite",
+    "overview": "A quiet, instrument-grade register. The interface is cool graphite neutrals held together by 1px hairlines, so that the only thing on screen with real colour is the thing staff came to read: an asset's condition. Everything else (layout, navigation, forms) recedes into calm, Linear-like product UI: a slim top bar, a single content column capped at 1200px, dense hairline tables on the desk, compact cards in the hand.\n\nDensity is deliberate. Body text sits at 14px with tabular figures everywhere numbers appear, tags and serials are set in the system monospace, and controls are 36px on the desk and 44px on phones. The indigo accent is rationed: it appears on the one primary action per screen, on focus, and on selection, never as decoration. The system rejects the stock Fluent admin look (blue filled pills, Segoe-only type, card-plus-sidebar dashboards) and any dashboard chrome.\n\nBoth themes are first class. Light is near-white graphite on a faintly cool canvas; dark is a deep near-black graphite with lifted, desaturated state colours. Every token has a paired value, switched by `prefers-color-scheme`.",
+    "keyCharacteristics": [
+      "Cool graphite neutrals; hairlines, not shadows, carry structure.",
+      "One indigo accent, reserved for primary action, focus and selection.",
+      "Condition shown as a five-segment meter with its number; status as a dot plus a word.",
+      "Inter Variable with tabular figures; system monospace for tags and serials.",
+      "Dense hairline table on desk and tablet; compact cards with 44px targets on phones.",
+      "Short, ease-out motion (120ms / 200ms) that honours reduced-motion."
+    ],
+    "rules": [
+      {
+        "name": "The Rationed Indigo Rule",
+        "body": "Indigo is for the single primary action on a screen, focus, and selection. Never for headings, icons, backgrounds or decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Live Signal Rule",
+        "body": "Condition is the live signal: lit meter segments and the selected rating key are where state colour lives. Map condition 1 to danger, 2 to warn, 3 to neutral, 4 and 5 to ok; never change this mapping.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tint Plus Ink Rule",
+        "body": "State colour on a background always uses the soft tint with the matching `-ink` text (or plain ink), never the saturated mark colour as a text colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Any number a person compares (dates, counts, ratings, costs, character counters) uses `font-variant-numeric: tabular-nums`.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono For Identifiers Rule",
+        "body": "Tags and serials are mono; names, labels and prose never are.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hairline Rule",
+        "body": "Structure is drawn with 1px `line` borders and tonal steps. A new container gets a hairline border, not a shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep indigo to one primary button per screen, focus and selection.",
+      "Do show status as an 8px dot plus the word, and condition as the five-segment meter with its number.",
+      "Do map condition 1 to danger, 2 to warn, 3 to neutral, 4 and 5 to ok, everywhere.",
+      "Do draw containers with a 1px line border on pane over canvas, 12px radius.",
+      "Do use tabular figures for every date, count, rating and counter, and mono for tags and serials.",
+      "Do give every phone action a 44px target, and pin long-form actions to the bottom on phones.",
+      "Do pair every token change across both themes; nothing ships light-only.",
+      "Do keep motion to 120ms for colour changes and 200ms ease-out (`cubic-bezier(0.22, 1, 0.36, 1)`) for entrances, and let reduced-motion flatten it."
+    ],
+    "donts": [
+      "Don't use filled status pills, blue admin chrome, or a card-plus-aside dashboard layout.",
+      "Don't add drop shadows to cards, panes or tables; the float shadow belongs only to the pinned phone action bar.",
+      "Don't use indigo for headings, icons, backgrounds or decorative accents.",
+      "Don't load fonts or icons from a CDN; Inter is bundled and icons are inline SVG.",
+      "Don't convey condition by colour alone; the number always accompanies the meter.",
+      "Don't set names, labels or prose in monospace."
+    ]
+  }
+}

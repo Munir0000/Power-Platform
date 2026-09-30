@@ -1,0 +1,220 @@
+/* Inter Variable, Latin subset only, bundled from npm so it works inside the Power Apps frame. */
+@font-face {
+  font-family: 'Inter Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('@fontsource-variable/inter/files/inter-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ---------- Tokens: Graphite ---------- */
+:root {
+  /* Surfaces */
+  --canvas: #f7f8f8;
+  --pane: #ffffff;
+  --sunken: #f1f2f4;
+  --hover: #f5f6f8;
+
+  /* Ink */
+  --ink: #16181d;
+  --ink-2: #3d414a;
+  --muted: #626873;
+
+  /* Lines */
+  --line: #e4e6ea;
+  --line-2: #d3d6dc;
+  --control: #8c929c;
+
+  /* Accent: actions, focus and selection only */
+  --accent: #4f5bd5;
+  --accent-hover: #4450c6;
+  --accent-press: #3a45b0;
+  --accent-soft: #eceefc;
+  --accent-ink: #3b45b5;
+  --on-accent: #ffffff;
+
+  /* States */
+  --ok: #1f9255;
+  --ok-ink: #16683d;
+  --ok-soft: #e7f5ed;
+  --info: #3d8ac4;
+  --info-ink: #235f8c;
+  --info-soft: #e6f1f9;
+  --warn: #cf8413;
+  --warn-ink: #8a5300;
+  --warn-soft: #fcf2e0;
+  --danger: #d14343;
+  --danger-ink: #a52a2a;
+  --danger-soft: #fcebeb;
+  --neutral: #6b717c;
+  --neutral-soft: #eef0f2;
+  --seg-off: #e1e4e8;
+
+  /* Type */
+  --font-sans: 'Inter Variable', 'Segoe UI Variable Text', 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, monospace;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-md: 0.875rem;
+  --fs-lg: 1rem;
+  --fs-xl: 1.125rem;
+  --fs-2xl: 1.375rem;
+  --fs-3xl: 1.75rem;
+
+  /* Space (4px rhythm) */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.25rem;
+  --s-6: 1.5rem;
+  --s-7: 2rem;
+  --s-8: 3rem;
+
+  /* Shape */
+  --r-sm: 6px;
+  --r-md: 8px;
+  --r-lg: 12px;
+  --control-h: 36px;
+  --touch: 44px;
+  --topbar-h: 52px;
+
+  /* Depth: hairlines carry structure; one soft shadow for floating bars */
+  --shadow-float: 0 -1px 0 var(--line), 0 -8px 24px -12px rgb(16 18 24 / 0.12);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-1: 120ms;
+  --dur-2: 200ms;
+  --dur-3: 480ms;
+
+  /* Layers */
+  --z-sticky: 10;
+  --z-topbar: 20;
+  --z-skip: 30;
+
+  color-scheme: light dark;
+  font-family: var(--font-sans);
+  font-size: 100%;
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--canvas);
+  accent-color: var(--accent);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --canvas: #0f1011;
+    --pane: #16171a;
+    --sunken: #1d1f23;
+    --hover: #1b1c20;
+
+    --ink: #f2f3f5;
+    --ink-2: #c9ced6;
+    --muted: #8f96a1;
+
+    --line: #25272c;
+    --line-2: #31343b;
+    --control: #636a75;
+
+    --accent: #8a93f0;
+    --accent-hover: #9ea6f4;
+    --accent-press: #7a83e6;
+    --accent-soft: #23264a;
+    --accent-ink: #b9befa;
+    --on-accent: #0f1011;
+
+    --ok: #3fb97a;
+    --ok-ink: #82d8a8;
+    --ok-soft: #152a1f;
+    --info: #5aa7e0;
+    --info-ink: #9ccbef;
+    --info-soft: #14253a;
+    --warn: #e0a040;
+    --warn-ink: #f1c47e;
+    --warn-soft: #2d2313;
+    --danger: #ef6b6b;
+    --danger-ink: #f6a7a7;
+    --danger-soft: #331a1b;
+    --neutral: #a3aab5;
+    --neutral-soft: #24262b;
+    --seg-off: #2e3137;
+
+    --shadow-float: 0 -1px 0 var(--line), 0 -8px 24px -12px rgb(0 0 0 / 0.6);
+  }
+}
+
+/* ---------- Base ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  /* Focused fields and messages scroll clear of the sticky top bar. */
+  scroll-padding-top: calc(var(--topbar-h) + var(--s-7));
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--canvas);
+  font-size: var(--fs-md);
+  caret-color: var(--accent);
+  scrollbar-color: var(--line-2) transparent;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+a {
+  color: var(--accent-ink);
+  text-underline-offset: 3px;
+}
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
+  color: inherit;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

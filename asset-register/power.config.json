@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "appId": "0013abc9-75ba-44dd-8dec-4b497a2d8272",
+  "appDisplayName": "Asset Register",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "292afabb-8008-e236-a8b0-c6e4427dde4a",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "assets": {
+          "entitySetName": "cr_assets",
+          "logicalName": "cr_asset"
+        },
+        "sites": {
+          "entitySetName": "cr_sites",
+          "logicalName": "cr_site"
+        },
+        "conditionchecks": {
+          "entitySetName": "cr_conditionchecks",
+          "logicalName": "cr_conditioncheck"
+        },
+        "users": {
+          "entitySetName": "systemusers",
+          "logicalName": "systemuser"
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}

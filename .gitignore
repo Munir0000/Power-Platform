@@ -1,0 +1,22 @@
+# Dependencies (re-created by npm install)
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Local secrets and environment files
+.env
+.env.*
+*.pfx
+*.pem
+
+# Solution build output
+solution/**/bin/
+solution/**/obj/
+
+# Logs and OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
