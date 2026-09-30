@@ -5,7 +5,7 @@ This guide walks you through testing the published Asset Register code app in yo
 **App link** (the play URL from the last push):
 
 ```
-https://apps.powerapps.com/play/e/292afabb-8008-e236-a8b0-c6e4427dde4a/app/0013abc9-75ba-44dd-8dec-4b497a2d8272?tenantId=49d0e663-7e75-4083-b63c-3e87413f78af
+https://apps.powerapps.com/play/e/<environment-id>/app/<app-id>?tenantId=<tenant-id>
 ```
 
 > **Before you start:** You can't test security roles with your own account. You're a **System Administrator** in this environment, and that role bypasses every table permission, so the app will always work for you. Real security testing needs a **second, non-admin user**. That user needs a **Power Apps Premium** licence (or trial), because code apps that use Dataverse are premium. If you can't get a second licensed user, you can still do Part A, but Part B will only prove that the roles are configured, not that they work.
@@ -16,7 +16,7 @@ https://apps.powerapps.com/play/e/292afabb-8008-e236-a8b0-c6e4427dde4a/app/0013a
 
 ## 1. Open the app and check it loads real data
 
-a. Open the app link above in your normal browser, signed in as `MunirPowerLearn@muniralifordev1gmail.onmicrosoft.com`.
+a. Open the app link above in your normal browser, signed in as your admin account.
 
 b. The landing page opens. Select **Open the live app**.
 
@@ -122,7 +122,7 @@ https://admin.microsoft.com
 
 b. Select **Users** → **Active users** → **Add a user**.
 
-c. Create a user, for example `asset.tester@muniralifordev1gmail.onmicrosoft.com`. Note the temporary password shown at the end.
+c. Create a user, for example `asset.tester@<your-tenant>.onmicrosoft.com`. Note the temporary password shown at the end.
 
 d. On the licences step, assign **Power Apps Premium** if you have one.
 
@@ -146,7 +146,7 @@ c. Select **Settings**, expand **Users + permissions** and select **Users**.
 d. Select **Add user**, search for the test user and add them.
 
 *Why this matters:* The docs note that developer-type environments don't add users automatically, so the user must exist in the environment before you can give them roles.
-*Common mistake to avoid:* Picking the wrong environment. You have several (MunirDevelopment, Development, and others); the app lives in the one named **Development**.
+*Common mistake to avoid:* Picking the wrong environment. If you have several, the app lives in the one named **Development**.
 
 ## 9. Create the "Asset Register User" security role
 
@@ -203,7 +203,7 @@ b. Tick **Asset Register User** and select **Save**.
 c. Share the app with the test user. From the project folder in a terminal, run:
 
 ```bash
-npx pa app share --principal asset.tester@muniralifordev1gmail.onmicrosoft.com --access play
+npx pa app share --principal asset.tester@<your-tenant>.onmicrosoft.com --access play
 ```
 
 d. If you prefer the website: go to `https://make.powerapps.com`, select the **Development** environment, select **Apps**, select **Asset Register**, and select **Share**.

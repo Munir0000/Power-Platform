@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment-specific config (copy power.config.example.json)
+power.config.json
+
+# Local Claude Code settings
+.claude/

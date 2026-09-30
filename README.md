@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://www.upwork.com/freelancers/~015d6957cee740d9e6"><img src="https://img.shields.io/badge/Hire%20me-Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Hire me on Upwork"></a>
   <a href="https://www.linkedin.com/in/munir-ali-7b9607234"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge" alt="LinkedIn"></a>
-  <a href="hibrnoor.com"><img src="https://img.shields.io/badge/Website-Visit-7E22CE?style=for-the-badge" alt="Website"></a>
+  <a href="https://hibrnoor.com"><img src="https://img.shields.io/badge/Website-Visit-7E22CE?style=for-the-badge" alt="Website"></a>
   <a href="mailto:muniralitechse@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 

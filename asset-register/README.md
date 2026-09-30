@@ -62,6 +62,8 @@ The Dataverse tables, security roles and the packaged app live in [`../solution`
 
 Prerequisites: Node.js, access to a Dataverse environment with code apps enabled, and the `pa` CLI (`@microsoft/power-apps-cli`, already a dev dependency).
 
+`power.config.json` is environment-specific and isn't committed. Copy [`power.config.example.json`](power.config.example.json) to `power.config.json` and fill in your `environmentId`. Add an `appId` only if you're updating an app that already exists.
+
 ```bash
 npm install
 npm run dev:sample   # screens with sample data, no tenant needed
